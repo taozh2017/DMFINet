@@ -1,0 +1,1 @@
+python EN2CTTest.py --large_num 3 --which_epoch 80 --res_num 3 --name multi5 --model cyclegan_2D --which_model_netG mymodel --which_direction AtoB --dataset_mode unaligned_2D --norm instance --fine_size 256 --batch_size 1 --patch_size 8 --mask_ratio 0 --base_filter 64 --res_net --dataset_name multi --mode test/ --data_path ../../data/multiData/
